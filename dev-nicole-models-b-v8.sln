@@ -1,0 +1,48 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dev-nicole-models-b-v8.Web", "dev-nicole-models-b-v8.Web\", "{17305150-04C8-4CA5-B50A-6093ED57500D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2777"
+		Debug.AspNetCompiler.PhysicalPath = "dev-nicole-models-b-v8.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2777\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2777"
+		Release.AspNetCompiler.PhysicalPath = "dev-nicole-models-b-v8.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2777\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2777"
+	SlnRelativePath = "dev-nicole-models-b-v8.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{BF376F4A-8E40-4375-8F98-F7AEFFC75223} = {BF376F4A-8E40-4375-8F98-F7AEFFC75223}
+	EndProjectSection	
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dev-nicole-models-b-v8.Core", "dev-nicole-models-b-v8.Core\dev-nicole-models-b-v8.Core.csproj", "{BF376F4A-8E40-4375-8F98-F7AEFFC75223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	{17305150-04C8-4CA5-B50A-6093ED57500D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+	{17305150-04C8-4CA5-B50A-6093ED57500D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	{BF376F4A-8E40-4375-8F98-F7AEFFC75223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+	{BF376F4A-8E40-4375-8F98-F7AEFFC75223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	{BF376F4A-8E40-4375-8F98-F7AEFFC75223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	{BF376F4A-8E40-4375-8F98-F7AEFFC75223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
